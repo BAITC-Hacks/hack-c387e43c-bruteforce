@@ -1,0 +1,215 @@
+{
+  "analyze": {
+    "request": {
+      "operation": "analyze",
+      "working": {
+        "description": "Our café throws away unsold food. We need help reducing it.",
+        "topic": "Food & hospitality",
+        "card": {
+          "title": "Reduce food waste at Sunrise Café",
+          "context": "",
+          "need": "",
+          "users": "",
+          "materialsName": "",
+          "materialsDescription": "",
+          "materialsAccess": "",
+          "deliverableType": "",
+          "deliverableDescription": "",
+          "successMode": "metric",
+          "successMetric": "",
+          "successComparison": "",
+          "successValue": "",
+          "successUnit": "",
+          "successAction": "",
+          "successOutcome": "",
+          "verification": "",
+          "deadline": "",
+          "boundary": "",
+          "contact": "",
+          "consultation": "",
+          "feedback": ""
+        },
+        "questions": [],
+        "answers": [],
+        "sources": [],
+        "ownerFields": []
+      }
+    },
+    "response": {
+      "mode": "demo",
+      "result": {
+        "missingFields": [
+          "users",
+          "deadline",
+          "materialsName",
+          "materialsDescription",
+          "deliverableDescription",
+          "verification"
+        ],
+        "questions": [
+          {
+            "id": "initial-users",
+            "field": "users",
+            "text": "Who will use the result? (your food or hospitality project)",
+            "reason": "A specific user group guides the solution."
+          },
+          {
+            "id": "initial-deadline",
+            "field": "deadline",
+            "text": "When do you need a first working result? (your food or hospitality project)",
+            "reason": "A time boundary helps teams propose realistic plans."
+          },
+          {
+            "id": "initial-materialsName",
+            "field": "materialsName",
+            "text": "Which dataset, document, or example can you share? (your food or hospitality project)",
+            "reason": "Students need to know which materials already exist."
+          }
+        ]
+      }
+    }
+  },
+  "draft": {
+    "request": {
+      "operation": "draft",
+      "working": {
+        "description": "Our café throws away unsold food. We need help reducing it.",
+        "topic": "Food & hospitality",
+        "card": {
+          "title": "Reduce food waste at Sunrise Café",
+          "context": "",
+          "need": "",
+          "users": "",
+          "materialsName": "",
+          "materialsDescription": "",
+          "materialsAccess": "",
+          "deliverableType": "",
+          "deliverableDescription": "",
+          "successMode": "metric",
+          "successMetric": "",
+          "successComparison": "",
+          "successValue": "",
+          "successUnit": "",
+          "successAction": "",
+          "successOutcome": "",
+          "verification": "",
+          "deadline": "",
+          "boundary": "",
+          "contact": "",
+          "consultation": "",
+          "feedback": ""
+        },
+        "questions": [
+          {
+            "id": "initial-users",
+            "field": "users",
+            "text": "Who will use the result? (your food or hospitality project)",
+            "reason": "A specific user group guides the solution."
+          },
+          {
+            "id": "initial-deadline",
+            "field": "deadline",
+            "text": "When do you need a first working result? (your food or hospitality project)",
+            "reason": "A time boundary helps teams propose realistic plans."
+          },
+          {
+            "id": "initial-materialsName",
+            "field": "materialsName",
+            "text": "Which dataset, document, or example can you share? (your food or hospitality project)",
+            "reason": "Students need to know which materials already exist."
+          }
+        ],
+        "answers": [
+          {
+            "id": "answer-users",
+            "questionId": "initial-users",
+            "field": "users",
+            "text": "The café manager"
+          },
+          {
+            "id": "answer-deadline",
+            "questionId": "initial-deadline",
+            "field": "deadline",
+            "text": "A first working prototype within two weeks"
+          }
+        ],
+        "sources": [],
+        "ownerFields": []
+      }
+    },
+    "response": {
+      "mode": "demo",
+      "result": {
+        "card": {
+          "title": "Reduce food waste at Sunrise Café",
+          "context": "Our café throws away unsold food.",
+          "need": "We need help reducing it.",
+          "users": "The café manager",
+          "materialsName": "",
+          "materialsDescription": "",
+          "materialsAccess": "",
+          "deliverableType": "",
+          "deliverableDescription": "",
+          "successMode": "metric",
+          "successMetric": "",
+          "successComparison": "",
+          "successValue": "",
+          "successUnit": "",
+          "successAction": "",
+          "successOutcome": "",
+          "verification": "",
+          "deadline": "A first working prototype within two weeks",
+          "boundary": "",
+          "contact": "",
+          "consultation": "",
+          "feedback": ""
+        },
+        "sources": [
+          {
+            "field": "context",
+            "sourceId": "description",
+            "quote": "Our café throws away unsold food."
+          },
+          {
+            "field": "need",
+            "sourceId": "description",
+            "quote": "We need help reducing it."
+          },
+          {
+            "field": "users",
+            "sourceId": "answer-users",
+            "quote": "The café manager"
+          },
+          {
+            "field": "deadline",
+            "sourceId": "answer-deadline",
+            "quote": "A first working prototype within two weeks"
+          }
+        ],
+        "gaps": [
+          "materialsName",
+          "materialsDescription",
+          "materialsAccess",
+          "deliverableType",
+          "deliverableDescription",
+          "successMetric",
+          "successComparison",
+          "successValue",
+          "successUnit",
+          "successAction",
+          "successOutcome",
+          "verification",
+          "boundary",
+          "contact",
+          "consultation",
+          "feedback"
+        ],
+        "followUp": []
+      }
+    }
+  },
+  "invalidAnalysis": {
+    "missingFields": [],
+    "questions": []
+  }
+}
